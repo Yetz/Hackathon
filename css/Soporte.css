@@ -1,0 +1,54 @@
+.hd{
+	background-size: 100%;
+	min-height: 800px;
+	background-color: #808080;
+}
+.div1{
+	width: 100%;
+	min-height: 630px;
+	background-color: #fff;
+	border-top: green 6px solid;
+	border-left: green 6px solid;
+	border-bottom: green 6px solid;
+	margin-right: gray 6px solid;
+	display: inline-block;
+	position: relative;
+}
+.div{
+	width: 100%;
+	min-height: 600px;
+	margin-left: -3%;
+	background-color: #fff;
+	border-top: green 6px solid;
+	border-right: green 6px solid;
+	border-bottom: green 6px solid;
+	display: inline-block;
+	position: relative;
+}
+.fine{
+	margin-top: 40%;
+	margin-left: 30%;
+}
+.texdiv{
+	text-align: center;
+	font-family: Verdana;
+	font-weight: bold;
+	color: #fff;
+	padding: 10px;
+}
+.divcarta{
+	background-color: green;
+	height: 60px;
+	border-radius: 5px;
+}
+.carta{
+	left: 0;
+	margin-top: 2%;
+}
+.texdiv1{
+	text-align: center;
+	font-family: Verdana;
+	font-weight: bold;
+	color: #808080;
+	padding-top: 40%;
+}

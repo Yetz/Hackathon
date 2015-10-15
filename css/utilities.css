@@ -1,0 +1,94 @@
+*{
+	font-family: "Verdana";
+}
+/* Shortcuts */
+
+.pd-0{
+	padding: 0;
+}
+.pt-10{
+	padding-top: 10%;
+}
+
+.pt-5{
+	padding-top: 5%;
+}
+.pb-5{
+	padding-bottom: 5%;
+}
+.mg-0{
+	margin: 0;
+}
+.mg-5{
+	margin-top: 5%;
+}
+.mgl-5{
+	margin-left: 5%;
+}
+.w-100{
+	width: 100%;
+}
+.lh{
+	line-height: 1.5;
+}
+.text-center{
+	text-align: center;
+}
+.text-left{
+	text-align: left;
+}
+.text-white{
+	color: white;
+}
+.text-gray{
+	color: #848484;
+}
+.text-green{
+ color: #649663;
+}
+.a-none-decoration{
+	text-decoration: none;
+}
+.bg-green{
+	background-color: #78b964;
+	background-size: 100%;
+	background-attachment: fixed;
+	min-height: 250px;
+}
+.icon1{
+	width: 30px;
+	height: 20px;
+	margin-right: 2%;
+}
+.bg-greyclaro{
+	background-color: #f2f2f2;
+	background-size: 100%;
+	min-height: 550px;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.bg-gris{
+	background-color: #463D42;
+	background-size: 100%;
+	min-height: 480px;
+}
+
+.bg-gris2{
+	background-color: #463D42;
+	background-size: 100%;
+	min-height: 250px;
+}
+
+.bg-img-block{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.bg-img-block1{
+	background-image: url(../img/manifiesto.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-height: 600px;
+}

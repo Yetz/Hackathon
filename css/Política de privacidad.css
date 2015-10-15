@@ -1,0 +1,49 @@
+*{
+	font-family: Arial;
+}
+
+
+.bg-gray{
+	background-color: #463D42;
+	background-size: 100%;
+	min-height: 150px;
+}
+
+
+.logo {
+	width: 20%;
+	height: 50%;
+	float: left;
+}
+
+ul li {
+	list-style: none;
+	display: inline-table;	
+}
+.measure {
+	border-spacing: 10px 10px;
+	text-align: center;
+}
+.phrase{
+	font-family:Latolight;
+	font-weight: bold;
+	font-size: 40px;
+	}
+
+	.format-square{
+	width: 80%;
+	margin: auto;
+	padding: 3%;
+}
+
+.bg-politics{
+	background-image: url(../img/Screenshot1.png);
+	background-size: 100%;
+	height: 700px;
+}
+
+.bg-politics2{
+	background-image: url(../img/Screenshot_2.png);
+	background-size: 100%;
+	height: 700px;
+}

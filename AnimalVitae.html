@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Animalvitae</title>
+        <link rel="stylesheet" type="text/css" href="css/grid-system.css">
+		<link rel="stylesheet" type="text/css" href="css/utilities.css">
+		<link rel="stylesheet" type="text/css" href="css/common.css">
+		<link rel="stylesheet" type="text/css" href="css/AnimalVitae.css">
+		<link rel="icon" href="favicon.ico">
+	</head>
+	<body>
+		<div class="container">
+			<div class="row"> 
+				<div class="col-8 animal">
+						<h2 class="margin">Animalvitae</h2>
+						<h6 class="margin"><a href="#">Carrito</a> > Información del cliente > Facturación y pagos</h6>
+						<img class="margin" src="img/btn_paypal.png">
+						<h4 class="margin">Información del cliente</h4>
+						<form>
+							<input class="box-form long margin" type="email" maxlength="20" placeholder="Correo electronico">
+						</form>
+						<h4 class="margin direccion">Dirección de facturación</h4>
+						<form>
+							<input class="box-form size" type="text" maxlength="20" placeholder="Nombre">
+							<input class="box-form size" type="text" maxlength="30" placeholder="Apellidos"> <br>
+							<input class="box-form size" type="text" maxlength="30" placeholder="Empresa (opcional)"> 
+							<input class="box-form size" type="text" maxlength="30" placeholder="Número interior 3, depart"> <br>
+							<input class="box-form long" type="text" maxlength="20" placeholder="Ciudad"> <br>
+							<font>Seleccione su país:</font>
+							<select class="box-form" name="pais">
+								<option value="1">México</option>
+								<option value="2">España</option>
+								<option value="3">Argentina</option>
+								<option value="4">Guatemala</option>
+								<option value="5">Honduras</option>
+								<option value="7">El Salvador</option>
+								<option value="8">Venezuela</option>
+								<option value="9">Colombia</option>
+								<option value="10">Cuba</option>
+								<option value="11">Bolivia</option>
+								<option value="13">Perú</option>
+								<option value="14">Ecuador</option>
+								<option value="15">Paraguay</option>
+								<option value="16">Uruguay</option>
+								<option value="17">Chile</option>
+								<!--Se podrían agregar más países-->
+							</select>
+							<font>Seleccione su estado:</font> 
+							<select class="box-form" name="estado">
+								<option value="1">Estado de México</option>
+								<option value="2">Aguascalientes</option>
+								<option value="2">Baja California</option>
+								<option value="4">Baja California Sur</option>
+								<option value="5">Campeche</option>
+								<option value="6">Chiapas</option>
+								<option value="7">Chihuahua</option>
+								<option value="8">Coahuila</option>
+								<option value="9">Colima</option>
+								<option value="10">Durango</option>
+								<option value="11">Distrito Federal</option>
+								<option value="12">Durango</option>
+								<option value="13">Guanajuato</option>
+								<option value="14">Guerrero</option>
+								<option value="15">Hidalgo</option>
+								<option value="16">Jalisco</option>
+								<!--Se podrían agregar más estados-->
+							</select>
+							<input class="box-form size margin" type="text" maxlength="20" placeholder="Código Postal">
+							<input class="box-form size margin" type="text" maxlength="20" placeholder="Teléfono">
+					   </form>
+				       <br>
+					   <br>
+						<div class="row">
+							<div class="col-4">
+								<h6 class="margin volver"> <a href="#">Volver al carrito</a></h6>
+							</div>
+							
+							<div class="col-4">
+								<button class="margin pago">Continuar a forma de pago</button> <!--Falta encontar la forma de quuitarle el relieve al botón-->
+							</div>             
+					    </div>
+					    <hr class="vitae">
+						<div class="col-8">
+							<p class="text-foot"><a href="#">Politca de Privacidad</a></p> 
+							<p class="text-foot"><a href="#">Condiciones del Servicio</a></p>
+			- 			</div>
+				 </div>
+				 <!--Aquí inicia la segunda columna-->-
+						<div class="col-4 costo">
+							<div class="margin-price">
+								<img  class="placa" src="img/DEMO-QR-AV2_150x150_cropped.png"> <!--Editar la imagen-->
+								<p class="text-price"> Placas Inteligentes Pet.bio</p>
+								<p class="text-price-two">$ 258.62</p>
+							</div>
+							<hr class="line-price margin-price">
+							<form>
+								<input class="box-form size large" type="text" maxlength="20" placeholder="Descuento">
+								<button class="usar">Usar</button>	
+							</form>
+							<hr class="line-price margin-price">
+							<div>
+								<p class="subtotal">Subtotal</p>
+								<p class="precio">$ 258.62</p>	
+							</div>
+							<div>
+								<p class="impuestos">Impuestos</p>
+								<p class="cero">$ 0.00</p>
+							</div>	
+							<hr class="line-price third margin-price">	
+							<div>
+								<p class="total">Total</p>
+								<p class="mxn"> <font class="mxn-font">MXN</font> <b class="final-price">$258.60</b></p>
+							</div>		
+						</div>      
+				</div>			
+			</div>	
+		</div>
+	</body>	
+</html>

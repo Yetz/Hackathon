@@ -1,0 +1,223 @@
+.collar{
+	background-image: url(../img/petbio-dog.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-top: -3%;
+	min-height: 450px;
+}
+/* Aquí termina la clase del header*/
+
+.block{
+	margin-top: -4%;
+	text-align: center;
+	position: relative;
+	display: block;
+}
+.logavitae{
+	width: 150px;
+	height: 150px;
+}
+.rotarY{
+	transform: rotateX(0deg);
+	transition-duration: 2s;
+	-ms-transform: rotate(0deg);
+	-ms-transition-duration: 2s;
+	-webkit-transform: rotate(0deg);
+	-webkit-transition-duration: 2s;
+}
+.rotarY:hover{
+	transform: rotateX(360deg);
+	transition-duration: 2s;
+	-ms-transform: rotate(360deg);
+	-ms-transition-duration: 2s;
+	-webkit-transform: rotate(360deg);
+	-webkit-transition-duration: 2s;
+}
+.texplaca{
+	font-family: Helvetica;
+	font-size: 35px;
+	text-align: center;
+	color: #fff;
+}
+/* Aquí terminan las clases de la primera sección (bg-gris)*/
+
+.hands{
+	width: 100%;
+	height: 500px;
+	padding-top: 15%;
+	padding-bottom: 0;
+	margin: 0;
+	position: relative;
+}
+.title{
+	font-family: verdana;
+	font-size: 28px;
+	color: #34495c;
+}
+hr{
+	background-color: #78b964;
+	height: 6px;
+	left: 0;
+	margin-right: 45%;
+}
+.bc{
+	background-color: #fff;
+	position: relative;
+	width: 100%;
+	margin-top: 5%;
+	padding: 5%;
+	margin-bottom: 0;
+}
+.textoside{
+	color: #444444;
+	font-family: helvetica; 
+	font-size:24px;
+	line-height: 50px;
+}
+.icon{
+	width: 20px;
+	height: 20px;
+	margin-right: 2%;
+}
+.textoside2{
+	font-color: #666666;
+	font-family: helvetica; 
+	font-size:16px;
+	line-height: 30px;
+	margin-left: 7%;
+}
+/* Aquí terminan las clases de la segunda sección (bg-greyclaro) */
+
+.texvd{
+	font-family: Helvetica;
+	font-size: 35px;
+	text-align: center;
+	color: #fff;
+}
+@-webkit-keyframes can{
+    0%   {left:0px; top:0px;}
+    25%  {left:1140px; top:0px;}
+    50%  {left:1140px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+}
+.can {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    -webkit-animation-name: can;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2s;
+}
+/* Aquí terminan las clases de la tercera sección (bg-green) */
+
+.hr{
+	background-color: #78b964;
+	height: 6px;
+	left: 0;
+	margin-right: 30%;
+}
+.bc1{
+	position: relative;
+	width: 110%;
+	margin-top: 5%;
+	padding: 5%;
+	margin-bottom: 0;
+}
+.textoside1{
+	color: #444444;
+	font-family: helvetica; 
+	font-size:20px;
+	line-height: 50px;
+}
+.icon1{
+	width: 30px;
+	height: 20px;
+	margin-right: 2%;
+}
+/* Aquí terminan las clases de la cuarta sección (bg-greyclaro) */
+/* La quinta sección no tiene clases*/
+
+.placabig{
+	width: 200px;
+	height: 200px;
+	margin: auto;
+	margin-top: -10%;
+}
+/* Aquí termina la clase de la sexta sección */
+
+.divbuy{
+	margin-top: 5%;
+	margin-bottom: 10%;
+	text-align: center;
+	position: relative;
+	display: block;
+}
+.divbuy2{
+	margin-top: 5%;
+	margin-bottom: 10%;
+	text-align: center;
+	position: relative;
+	display: block;
+	border-right: 3px solid #dfdfdf;
+}
+.buy{
+	width: 70px;
+	height: 70px;
+	margin: auto;
+	margin-bottom: 10%;
+}
+.pet{
+	color: #848484;
+	font-family: Arial;
+	font-size: 25px;
+	line-height: 30px;
+}
+.pet1{
+	color: #848484;
+	font-family: Tahoma;
+	font-size: 12.5px;
+}
+.pet2{
+	color: #848484;
+	font-family: Tahoma;
+	font-size: 12px;
+}
+.form{
+	width: 60%;
+	height: 40px;
+	border-radius: 5px;
+	left: 0;
+	display: inline-block;
+	position: relative;
+	margin-bottom: 2%;
+}
+.form1{
+	width: 20%;
+	height: 40px;
+	border-radius: 5px;
+	display: inline-block;
+	position: relative;
+	margin-bottom: 2%;
+}
+/* Aquí terminan las clases de la séptima sección (id=contacto) */
+
+.foot{
+	background-color: #E6E6FA;
+	background-size: 100%;	
+	min-height: 80px;
+	padding-top: 2%;
+}
+.copy{
+	margin-bottom: -0.5%;
+	margin-right: 1.5%;
+}
+.redes{
+	float: right;
+	width: 400px;
+	height: 40px;
+}
+/* Aquí terminan las clases del footer*/

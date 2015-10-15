@@ -1,0 +1,169 @@
+.animal { /*Contiene a toda la primera columna, es el marco*/
+	width: 600px;
+	height: 700px;
+	margin: 30px;
+	display: inline-block;
+	border-right: 1px solid grey;
+	float: left;
+	display: inline-block;
+	position: relative;
+}
+
+.margin {
+	margin-bottom: 20px;
+}
+
+.box-form { /*Esta clase es para todos los campos del formulario*/
+	border: 1px solid #C0C0C0;
+	border-radius: 8px 8px 8px 8px;
+	height: 40px;
+	margin-bottom: 5px;
+}
+
+.long { /*Para los campios del formulario que ocupan toda la columna*/
+	width: 571px;
+}
+
+.direccion { 
+	margin-top: 20px;
+}
+
+font {
+	font-size: 14px;
+	margin-left: 6px;
+}
+
+.size {
+	width: 282px;
+}
+
+.volver {
+	text-align: left;
+	color: #0099FF;
+}
+
+.pago {
+	text-align: center;
+	width: 220px;
+	height: 50px;
+	margin-left: 160px;
+	background-color: #3399FF;
+	color: white; 
+	border-bottom-style: groove;
+}
+
+.text-foot {
+	margin-top: 20px;
+	font-size: 12px;
+	display: inline-block;
+	position: relative;
+}
+
+.vitae {
+	margin-top: 20px;
+}
+
+/*AQUI COMIENZAN LOS ESTILOS DE LA SEGUNDA COLUMNA*/
+
+.costo { /*Contiene a toda la segunda columna*/
+	width: 450px;
+	height: 700px;
+	background-color: #F8F8F8;
+	float: right;
+	margin-top: 30px;
+}
+
+.placa {
+	width: 80px;
+	height: 80px;
+	margin-top: 30px;
+	display: inline-block;
+}
+
+.text-price {
+	font-size: 14px;
+	width: 200px;
+	display: inline-block;
+	position: absolute;
+	margin-top: 60px; 
+	margin-left: 5px;
+}
+
+.text-price-two {
+	font-size: 13px;
+	float: right;
+	margin-top: 60px;
+}
+
+.margin-price { /*Usar para dar espacio entre los elementos*/
+	margin-bottom: 15px;
+}
+
+.line-price {
+	width: 430px;
+}
+
+.large {
+	width: 330px;
+	margin-bottom: 15px;
+}
+
+.usar { /*Botón segunda columna*/
+	height: 35px;
+	width: 80px;
+	text-align: center;
+	border-radius: 8px 8px 8px 8px;
+	background-color: #A8A8A8;
+	color: aliceblue;
+	margin-bottom: 15px;
+}
+
+.subtotal {
+	font-size: 14px;
+	float: left;
+	margin-bottom: 15px;
+}
+
+.precio { /*Quitar el relieve. No funciona "style: none"*/
+	font-size: 13px;
+	float: right;
+	margin-bottom: 15px;
+}
+
+.impuestos {
+	position: absolute;
+	margin-top: 25px;
+	font-size: 14px;
+}
+
+.cero {
+	font-size: 13px;
+	position: absolute;
+	margin-left: 380px;
+	margin-top: 25px;
+}
+
+.third { /*para acaomodar la tercera línea*/
+	margin-top: 70px;
+}
+
+
+.total {
+	width: 40px;
+	display: inline-block;
+	float: left;
+}
+
+.mxn {
+	position: absolute;
+	margin-left: 282px;
+}
+
+.final-price {
+	font-size: 22px;
+	color: #505050;
+}
+
+.mxn-font {
+	color: #909090;
+}
